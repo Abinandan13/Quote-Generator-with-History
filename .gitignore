@@ -1,0 +1,41 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Secrets & Local Configs
+.env
+.env.local
+.env.*.local
+*.env
+
+# SQLite Database Files (Preserve on disk, ignore from VCS)
+*.db
+*.sqlite
+*.sqlite3
+backend/quotes.db
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs & Temporary Files
+*.log
+scratch/
+tmp/
